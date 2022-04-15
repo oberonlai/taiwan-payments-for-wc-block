@@ -1,0 +1,15 @@
+{
+    "name": "oberonlai/taiwan-payments-for-wc-block",
+    "description": "Taiwan payment methods for WooCommerce checkout blocks.",
+    "type": "project",
+    "require": {
+        "a7/autoload": "^2.1"
+    },
+    "license": "GPL",
+    "authors": [
+        {
+            "name": "oberonlai",
+            "email": "m615926@gmail.com"
+        }
+    ]
+}

@@ -1,0 +1,14 @@
+{
+  "name": "taiwan-payments-for-wc-block",
+  "version": "1.0.0",
+  "description": "Taiwan payment methods for WooCommerce checkout blocks.",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "oberonlai",
+  "license": "GPL-2.0",
+  "dependencies": {
+    "webpack": "^5.72.0",
+    "webpack-cli": "^4.9.2"
+  }
+}
