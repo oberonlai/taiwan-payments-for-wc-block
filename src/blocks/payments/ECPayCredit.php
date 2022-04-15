@@ -71,7 +71,7 @@ final class ECPayCredit extends AbstractPaymentMethodType {
 		}
 		wp_register_script(
 			'wc-ecpay-credit-blocks-integration',
-			TWPAYMENT_PLUGIN_URL . 'build/wc-payment-method-ecpay-credit.js',
+			TWPAYMENT_PLUGIN_URL . 'dist/wc-payment-method-ecpay-credit.js',
 			$dependencies,
 			'1.0.0',
 			true
