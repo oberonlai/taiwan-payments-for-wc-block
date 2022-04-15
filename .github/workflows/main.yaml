@@ -1,4 +1,4 @@
-name: Create a new MCS release
+name: Create a new release
 on:
   release:
     types: [published]
@@ -15,15 +15,15 @@ jobs:
       - name: Create artifact
         uses: montudor/action-zip@v1
         with:
-          args: zip -X -r build/mcs.zip . -x *.git* node_modules/\* .* "*/\.*" *.dist grumphp.yml composer.* build**
+          args: zip -X -r build/taiwan-payments-for-wc-block.zip . -x *.git* node_modules/\* .* "*/\.*" *.dist grumphp.yml composer.* build**
       - name: Upload artifact
         uses: actions/upload-artifact@v2
         with:
-          name: mcs
-          path: build/mcs.zip
+          name: taiwan-payments-for-wc-block
+          path: build/taiwan-payments-for-wc-block.zip
       - name: Upload to release
         uses: JasonEtco/upload-to-release@master
         with:
-          args: build/mcs.zip application/zip
+          args: build/taiwan-payments-for-wc-block.zip application/zip
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
